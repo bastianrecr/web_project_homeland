@@ -1,0 +1,47 @@
+.intro {
+  padding: 0 11.6% 92px;
+  width: 65%;
+}
+
+.intro__title {
+  margin: 0 0 40px;
+  width: 100%;
+  font-size: 54px;
+  line-height: 1.1;
+}
+
+.intro__quote {
+  margin: 0 0 10px;
+  width: 90%;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.intro__quote-author {
+  margin: 0 0 32px;
+  width: 89%;
+  font-size: 24px;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.intro__text {
+  margin: 0;
+  width: 87%;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 320px) and (max-width: 544px) {
+}
+
+@media screen and (min-width: 544px) and (max-width: 1024px) {
+  .intro {
+    width: 93.75%;
+    padding: 0 3% 92px;
+  }
+  .intro__title {
+    font-size: 45px;
+    line-height: 1.1;
+  }
+}
