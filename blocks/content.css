@@ -1,23 +1,23 @@
-.intro {
+.content {
   padding: 0 11.6% 92px;
   width: 65%;
 }
 
-.intro__title {
+.content__title {
   margin: 0 0 40px;
   width: 100%;
   font-size: 54px;
   line-height: 1.1;
 }
 
-.intro__quote {
+.content__quote-text {
   margin: 0 0 10px;
   width: 90%;
   font-size: 24px;
   line-height: 1.4;
 }
 
-.intro__quote-author {
+.content__quote-author {
   margin: 0 0 32px;
   width: 89%;
   font-size: 24px;
@@ -25,7 +25,7 @@
   text-align: right;
 }
 
-.intro__text {
+.content__text {
   margin: 0;
   width: 87%;
   font-size: 16px;
@@ -33,51 +33,51 @@
 }
 
 @media screen and (max-width: 544px) {
-  .intro {
+  .content {
     width: 90%;
     padding: 0 5% 64px;
   }
 
-  .intro__title {
+  .content__title {
     width: 100%;
     font-size: 32px;
   }
 
-  .intro__quote {
+  .content__quote {
     width: 100%;
     line-height: 1.25;
   }
 
-  .intro__quote-author {
+  .content__quote-author {
     width: 100%;
   }
 
-  .intro__text {
+  .content__text {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 544px) and (max-width: 1024px) {
-  .intro {
+  .content {
     width: 93.75%;
     padding: 0 3% 88px;
   }
-  .intro__title {
+  .content__title {
     width: 98%;
     font-size: 45px;
     line-height: 1.1;
     margin-bottom: 50px;
   }
 
-  .intro__quote {
+  .content__quote {
     width: 100%;
   }
 
-  .intro__quote-author {
+  .content__quote-author {
     width: 100%;
   }
 
-  .intro__text {
+  .content__text {
     width: 100%;
   }
 }
