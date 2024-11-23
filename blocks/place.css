@@ -1,0 +1,27 @@
+.place {
+  margin: 0 auto;
+  width: 77%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "title artist"
+    "image description"
+    "button description";
+  column-gap: 37px;
+  row-gap: 48px;
+}
+
+.place__image {
+  grid-area: image;
+  width: 100%;
+}
+
+.place__description {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.place__description-text {
+  margin: 0;
+}
