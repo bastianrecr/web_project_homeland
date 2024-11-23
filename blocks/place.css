@@ -1,6 +1,6 @@
 .place {
   margin: 0 auto;
-  width: 77%;
+  width: 79%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
@@ -10,7 +10,29 @@
   column-gap: 37px;
   row-gap: 48px;
 }
-
+.place__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.05;
+}
+.place__artist-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.place__artist-title {
+  margin: 0;
+  font-size: 12px;
+  color: #aaa;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+}
+.place__artist-name {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.2;
+}
 .place__image {
   grid-area: image;
   width: 100%;
@@ -24,4 +46,13 @@
 
 .place__description-text {
   margin: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.place__button {
+  color: #fff;
+  text-decoration: none;
+  background-image: linear-gradient();
 }
