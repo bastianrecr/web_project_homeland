@@ -1,4 +1,9 @@
 .gallery {
+  padding-bottom: 92px;
+}
+
+.gallery__images {
+  margin: 0 auto;
   width: 92.5%;
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
