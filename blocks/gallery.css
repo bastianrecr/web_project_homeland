@@ -15,12 +15,18 @@
 }
 
 @media screen and (max-width: 544px) {
+  .gallery {
+    padding-bottom: 62px;
+  }
   .gallery__images {
     grid-template: repeat(8, 1fr) / 1fr;
   }
 }
 
 @media screen and (min-width: 544px) and (max-width: 1024px) {
+  .gallery {
+    padding-bottom: 88px;
+  }
   .gallery__images {
     grid-template: repeat(4, 1fr) / repeat(2, 1fr);
   }

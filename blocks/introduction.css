@@ -35,7 +35,7 @@
 @media screen and (max-width: 544px) {
   .introduction {
     width: 90%;
-    padding: 0 5% 64px;
+    padding: 0 5% 38px;
   }
 
   .introduction__title {
@@ -60,7 +60,7 @@
 @media screen and (min-width: 544px) and (max-width: 1024px) {
   .introduction {
     width: 93.75%;
-    padding: 0 3% 88px;
+    padding: 0 3% 64px;
   }
   .introduction__title {
     width: 98%;
