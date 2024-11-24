@@ -6,11 +6,19 @@
   grid-template-areas:
     "title artist"
     "image description"
-    "button description"
-    ". description";
+    "button description";
   column-gap: 37px;
   row-gap: 48px;
 }
+
+.place_description-size_large {
+  grid-template-areas:
+    "title artist"
+    "image description"
+    "button description"
+    ". description";
+}
+
 .place__title {
   margin: 0;
   font-weight: 900;
@@ -41,6 +49,7 @@
 }
 
 .place__description {
+  grid-area: description;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -63,5 +72,6 @@
   text-decoration: none;
   background-image: linear-gradient(to right, #0278fe, #003a78);
   width: 290px;
+  height: 22px;
   padding: 13px 20px;
 }
