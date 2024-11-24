@@ -26,6 +26,7 @@
   line-height: 1.05;
 }
 .place__artist-information {
+  grid-area: artist;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -33,6 +34,7 @@
 .place__artist-title {
   margin: 0;
   font-size: 12px;
+  line-height: 1.2;
   color: #aaa;
   text-transform: uppercase;
   padding-bottom: 8px;
@@ -68,6 +70,7 @@
 }
 
 .place__button {
+  grid-area: button;
   border-radius: 4px;
   box-shadow: 5px 5px 10px 0px #00000040;
   text-align: center;
@@ -84,4 +87,60 @@
 
 .place__button:hover {
   background-image: linear-gradient(to right, #0278fe40, #003a7b40);
+}
+
+@media screen and (max-width: 544px) {
+  .place {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .place__title {
+    width: 90%;
+    font-size: 32px;
+    padding: 0 5%;
+  }
+
+  .place__artist-information {
+    padding: 0 5%;
+  }
+
+  .place__image {
+    box-shadow: none;
+  }
+
+  .place__description-text {
+    font-size: 16px;
+    padding: 0 5%;
+  }
+
+  .place__button {
+    width: 90%;
+    font-size: 14px;
+    padding: 5% 0;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 544px) and (max-width: 1024px) {
+  .place__title {
+    font-size: 46px;
+    line-height: 1.1;
+  }
+
+  .place__description-text {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .place {
+    width: 94%;
+    grid-template-areas:
+      "title artist"
+      "image description"
+      "button description"
+      ". description";
+    column-gap: 28px;
+  }
 }
