@@ -13,3 +13,15 @@
 .gallery__image {
   width: 100%;
 }
+
+@media screen and (max-width: 544px) {
+  .gallery__images {
+    grid-template: repeat(8, 1fr) / 1fr;
+  }
+}
+
+@media screen and (min-width: 544px) and (max-width: 1024px) {
+  .gallery__images {
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+  }
+}
