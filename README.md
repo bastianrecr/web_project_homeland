@@ -39,4 +39,4 @@ LinkedIn: https://www.linkedin.com/feed/
 
 ## Enlace al Proyecto
 
-Haz click en el enlace para ir al proyecto: Proyecto: https://bastianrecr.github.io/web_project_homeland/
+Haz click en el enlace para ir al proyecto: https://bastianrecr.github.io/web_project_homeland/
