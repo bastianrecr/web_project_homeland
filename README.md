@@ -32,3 +32,11 @@ El enfoque de este proyecto es crear un sitio web funcional y estéticamente ada
 ## Contacto
 
 Para cualquier comentario o sugerencia, no dudes en comunicarte. Este proyecto es parte del bootcamp de TripleTen y está orientado a fortalecer mis habilidades en HTML, CSS y diseño responsivo.
+
+### Enlace
+
+LinkedIn: https://www.linkedin.com/feed/
+
+## Enlace al Proyecto
+
+Haz click en el enlace para ir al proyecto: Proyecto: https://bastianrecr.github.io/web_project_homeland/
